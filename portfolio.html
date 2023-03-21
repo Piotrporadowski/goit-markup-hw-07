@@ -15,43 +15,43 @@
   </head>
   <body>
     <header class="container">
-      <div class="navbar">
-        <a href="index.html" class="brand-link">
-          <span class="brand-color">Web</span>
-          <span class="black-color">Studio</span>
-        </a>
-        <nav>
-          <ul class="navigation-list">
-            <li class="transition-item">
-              <a class="navigation-item" href="index.html">Agencja</a>
-            </li>
-            <li class="underline">
-              <a class="navigation-item active" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="transition-item">
-              <a class="navigation-item" href="#">Kontakt</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="contact-top-link">
-          <li class="contact-top-mail-icon">
-            <svg class="icon-email" width="20" height="20">
-              <use href="./images/symbol-defs.svg#icon-envelope"></use>
-            </svg>
-            <a href="mailto:info@devstudio.com" class="contact-top-mail"
-              >info@devstudio.com</a
-            >
+      <div class="page-header">
+      <a href="#" class="logo">
+        <span>Web</span>
+        <span class="logo__color1">Studio</span>
+      </a>
+      <nav>
+        <ul class="navbar">
+          <li class="navbar__item--transition">
+            <a class="navbar__item" href="index.html">Agencja</a>
           </li>
-          <li class="contact-top-phone-icon">
-            <svg class="icon-phone" width="20" height="20">
-              <use href="./images/symbol-defs.svg#icon-smartphone-1"></use>
-            </svg>
-            <a href="tel:48111111111" class="contact-top-phone"
-              >+48 111 111 111</a
-            >
+          <li class="navbar--underline">
+            <a class="navbar__item active" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="navbar__item--transition">
+            <a class="navbar__item" href="#">Kontakt</a>
           </li>
         </ul>
-      </div>
+      </nav>
+        <ul class="page-header__contact">
+        <li class="contact__box-mail">
+          <svg class="icon__mail" width="20" height="20" >
+            <use href="./images/symbol-defs.svg#icon-envelope">
+            </use>
+          </svg>
+          <a href="mailto:info@devstudio.com" class="contact__mail"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact__box-phone">
+          <svg class="icon__phone" width="20" height="20" >
+            <use href="./images/symbol-defs.svg#icon-smartphone-1">
+            </use>
+          </svg>
+          <a href="tel:48111111111" class="contact__phone">+48 111 111 111</a>
+        </li>
+      </ul>
+    </div>
     </header>
 
     <main>
@@ -218,29 +218,29 @@
     </main>
 
     <footer class="footer">
-      <section class="container-bottom">
+      <section class="container-footer">
       <div class="bottom1">
-        <a href="#" class="brand-link">
-          <span class="brand-color">Web</span>
-          <span class="white-color">Studio</span>
+        <a href="#" class="logo">
+          <span>Web</span>
+          <span class="logo__color2">Studio</span>
         </a>
         <address>
           <ul>
             <li>
               <a
                 href="https://goo.gl/maps/RXUdSUhqYEkcBt6XA"
-                class="address"
+                class="bottom1__address"
                 target="blank"
                 >m. Warszawa, Aleje Jerozolimskie 21</a
               >
             </li>
             <li>
-              <a href="mailto:info@example.com" class="contact-bottom-link"
+              <a href="mailto:info@example.com" class="bottom1__link"
                 >info@example.com</a
               >
             </li>
             <li>
-              <a href="tel:48111111111" class="contact-bottom-link"
+              <a href="tel:48111111111" class="bottom1__link"
                 >+48 111 111 111</a
               >
             </li>
@@ -249,27 +249,27 @@
       </div>
       <div class="bottom2">
         <h4>dołącz do nas</h4>
-        <ul  class="our-team-socials">
-          <li class="our-team-sm-icon">
-            <svg class="photo-icon">
+        <ul  class="socials">
+          <li class="socials__box">
+            <svg class="socials__icon">
               <use href="./images/symbol-defs.svg#icon-instagram"
               ></use>
             </svg>
           </li>
-          <li class="our-team-sm-icon">
-            <svg class="photo-icon">
+          <li class="socials__box">
+            <svg class="socials__icon">
               <use href="./images/symbol-defs.svg#icon-twitter"
               ></use>
             </svg>
           </li>
-          <li class="our-team-sm-icon">
-            <svg class="photo-icon">
+          <li class="socials__box">
+            <svg class="socials__icon">
               <use href="./images/symbol-defs.svg#icon-facebook"
               ></use>
             </svg>
           </li>
-          <li class="our-team-sm-icon">
-            <svg class="photo-icon">
+          <li class="socials__box">
+            <svg class="socials__icon">
               <use href="./images/symbol-defs.svg#icon-linkedin2"
               ></use>
             </svg>
@@ -278,17 +278,17 @@
       </div>
       <div class="bottom3">
         <h4>zapisz sie do newslettera</h4>
-        <form class="signup-form" name="signup-form" autocomplete="on" novalidate>
-          <label class="form-newsletter">
+        <form class="bottom3__form" name="signup-form" autocomplete="on" novalidate>
+          <label class="form__newsletter">
             <span class="label-text"></span>
-            <div class="newsletter-box">
-              <input type="email" class="form-input-newsletter" name="email" placeholder="E-mail">
+            <div class="newsletter__box">
+              <input type="email" class="form__input-newsletter" name="email" placeholder="E-mail">
             </div>
           </label>
-          <button type="submit" class="newsletter-button">
+          <button type="submit" class="bottom3__button">
             Zapisz się
-            <svg class="send-icon" width="24" height="24" >
-              <use href="./images/symbol-defs-new.svg#icon-send"
+            <svg class="bottom3__icon" width="24" height="24" >
+              <use href="./images/symbol-defs.svg#icon-send"
               ></use>
             </svg>
           </button>
