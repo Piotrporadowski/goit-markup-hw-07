@@ -21,7 +21,7 @@
     left: 0;
     width: 370px;
     height: 70px;
-    background: var(--overlay-background-color);
+    background: $overlay-background-color;
   }
   .work__overlay p {
     margin: auto;
@@ -31,5 +31,5 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--background-color);
+    color: $background-color;
   }

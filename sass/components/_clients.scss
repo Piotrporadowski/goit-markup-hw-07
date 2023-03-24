@@ -12,5 +12,5 @@
     cursor: pointer;
   }
   .clients__icon:hover {
-    --color1:var(--brand-color)
+    --color1: $brand-color;
   }

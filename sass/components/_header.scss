@@ -31,7 +31,7 @@
       color: $primary-text-color
   } 
   .logo__color2 {
-    color: var(--background-color, white)
+    color: $background-color;
   }
   
   

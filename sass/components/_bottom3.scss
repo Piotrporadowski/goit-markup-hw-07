@@ -15,7 +15,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--background-color);
+    color: $background-color;
     margin: 25px 0px 15px 0px;
   }
   .bottom3__form {
@@ -32,7 +32,7 @@
     height: 50px;
     left: 815px;
     top: 2787px;
-    background: var(--footer-background-color);
+    background: $footer-background-color;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -52,7 +52,7 @@
     margin-left: 10px;
     width: 330px;
     height: 45px;
-    background-color: var(--footer-background-color);
+    background-color: $footer-background-color;
     outline: none;
     font-family: inherit;
     font-size: 16px;
@@ -74,8 +74,8 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer; 
-    background-color: var(--brand-color);
-    color: var(--background-color);
+    background-color: $brand-color;
+    color: $background-color;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
